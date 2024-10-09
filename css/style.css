@@ -9,6 +9,7 @@
 /* COMMON */
 .row{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     /* debug */
     min-height: 80px;
@@ -25,6 +26,18 @@
     margin: 0 auto;
     /* debug */
     border: 1px solid black;
+}
+
+.col-70{
+    /* debug */
+    width: 70%;
+    background-color:blueviolet;
+}
+
+.col-30{
+    /* debug */
+    width: 30%;
+    background-color:darkcyan;
 }
 
 /* HEADER */
@@ -55,4 +68,19 @@
     /* debug */
     width: 60%;
     background-color: chartreuse;
+}
+
+.small-container{
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /* debug */
+    border: 1px solid black;
+}
+
+.col{
+    width: calc((100% - 20px) / 3);
+    /* debug */
+    border: 1px solid black;
+    min-height: 200px;
 }
