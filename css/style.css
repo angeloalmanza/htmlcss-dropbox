@@ -40,6 +40,10 @@
     background-color:darkcyan;
 }
 
+.gap{
+    gap: 10px;
+}
+
 /* HEADER */
 .header{
     /* debug */
