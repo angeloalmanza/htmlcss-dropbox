@@ -1,0 +1,28 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* layout */
+/* COMMON */
+
+.header{
+    /* debug */
+    background-color: orange;
+    height: 80px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    /* debug */
+    height: 80px;
+}
+
+.col-20{
+    /* debug */
+    background-color: blue;
+    width: 20%;
+}
