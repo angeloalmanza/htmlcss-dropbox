@@ -17,7 +17,7 @@ img{
     flex-wrap: wrap;
     justify-content: space-between;
     /* debug */
-    /* min-height: 80px; */
+    min-height: 80px; 
 }
 
 .section{
@@ -147,8 +147,7 @@ footer li{
 
 /* HEADER */
 .header{
-    height: 30px;
-    margin: 20px;
+    height: 80px;
 }
 
 .list{
@@ -221,3 +220,80 @@ main{
     /* border: 1px solid white; */
     /* min-height: 200px; */
 }
+
+/* Bonus */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+main{
+    margin-top: 80px;
+}
+
+header li:hover{
+    text-decoration: underline;
+}
+
+.button:hover{
+    background-color: dodgerblue;
+}
+
+.button.light:hover{
+    background-color: #ffffff;
+}
+
+.img{
+    position: relative;
+    top: 65px;
+}
+
+.cel-grey{
+    background-color: #b4d0e7;
+}
+
+.center{
+    align-items: center;
+}
+
+.col-title{
+    color: #62092b;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.relative{
+    position: relative;
+}
+
+.chevron{
+    position: absolute;
+    right: 0;
+    top: 35%;
+}
+
+div .relative:hover .chevron{
+    transform: rotate(180deg);
+}
+
+.relative p{
+    display: none;
+}
+
+.relative:hover p{
+    display: block;
+}
+
+div .relative:hover + p{
+    margin-top: -50px;
+}
+
