@@ -7,6 +7,7 @@
 
 img{
     width: 100%;
+    display: block;
 }
 
 /* layout */
@@ -124,6 +125,16 @@ ul{
     margin-top: 20px;
 }
 
+.light{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.pl-20{
+    padding-left: 20px;
+}
+
 /* HEADER */
 .header{
     height: 30px;
@@ -155,15 +166,15 @@ main{
 }
 
 .col-40{
-    /* debug */
     width: 40%;
-    background-color: coral;
+    /* debug */
+    /* background-color: coral; */
 }
 
 .col-60{
-    /* debug */
     width: 60%;
-    background-color: chartreuse;
+    /* debug */
+    /* background-color: chartreuse; */
 }
 
 .small-container{
